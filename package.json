@@ -1,0 +1,23 @@
+{
+  "name": "demo-mkdist",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "keywords": [],
+  "author": "leex <jsonleex@163.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mkdist": "^1.3.0",
+    "unbuild": "^2.0.0",
+    "vue": "^3.3.4"
+  }
+}
